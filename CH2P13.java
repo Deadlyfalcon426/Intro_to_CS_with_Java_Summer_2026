@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class CH2P13{
     public static void main(String[] args) {
+        @SuppressWarnings("resource")
         Scanner reader = new Scanner(System.in);
         System.out.print("Enter monthly saving amount: "); double month_save = reader.nextDouble();
         double accumulator = 0;
